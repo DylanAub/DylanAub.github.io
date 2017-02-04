@@ -1,0 +1,76 @@
+body{
+	background-image: url("../image/bois.png");
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	height: 100%;
+    padding-top: 0px;
+}
+
+p{
+    color : white;
+    font-size: 17px
+}
+
+h1{
+    color : cadetblue;
+    text-align : center;
+    font-size : 30px;
+}
+h2{
+    color : darkcyan;
+    text-align : center;
+    font-size : 25px;
+}
+
+h4{
+    color : navajowhite;
+}
+
+a{
+    color: cadetblue;
+    text-align: center;
+    font-size : 20px;
+	text-decoration:none;
+}
+
+input{
+    color: cadetblue;
+}
+#surcouche{
+    display: none;
+    position: fixed;               
+    top: 0; right:0; bottom:0; left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index : 1000;
+}
+#case{
+    display : none;
+}
+#case:checked + #surcouche{
+    display: block;
+}
+label{
+    cursor: pointer;
+    color : slateblue;
+    font-size : 20px;
+}
+.labelButon{
+    padding: 5px 10px;
+    background-color: black;
+    color : cadetblue;
+    position: relative;
+    top: 500px;
+    z-index: 1005;
+     
+}
+#msgbox{
+    width: 80%;
+    height: 80%;
+    padding: 15px;
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    background-color: darkslateblue;
+    border: 2px solid #aaa;
+}
