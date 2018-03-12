@@ -1,0 +1,15 @@
+Marina ABDOU
+Dylan AUBERT
+
+Niveau 2 - Monnaie locale
+
+Définition du jeton/token que nous souhaitons implémenter :
+
+- Quelle sera sa valeur ?
+La valeur du token pourra être convertie en dollar américain afin de pouvoir avoir un lien avec les monnaies réelles.
+
+- Qui l'émettra ? En quelle quantité ? Sera-t-il possible d'en créer de nouveaux ? D'en détruire ?
+Habitants du pays souhaitant acheter, vendre ou envoyer de la monnaie. Non. Non.
+
+- Faudra-t-il être authentifié pour en posséder ? pour en transmettre ? Si oui, par qui ?
+Non.
